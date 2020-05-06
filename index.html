@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> rock, paper, scissors</title>
+ <meta charset="UTF-8"/>
+</head>
+<body>
+<script>
+
+console.log("Hello,World!")
+
+let selections=["rock", "paper", "scissors"];
+let playerSelection= prompt("Select your play");
+let play=playerSelection.toLowerCase();
+
+function computerPlay(){
+let cp=selections[Math.floor(Math.random()*selections.length)];
+return cp;
+}
+
+let x=computerPlay()
+
+if(play=="rock"){
+if (x=="paper") {alert("you lose, paper beats rock")}
+else if (x=="rock") {alert("tie!")}
+else {alert("you win!, rock beats scissors")}
+}
+
+else if(play=="paper")
+{
+if (x=="scissors") {alert("you lose, scissors beats paper")}
+else if (x=="paper") {alert("tie!")}
+else {alert("you win!, paper beats rock")}
+}
+else {
+if (x=="rock") {alert("you lose, rock beats scissors")}
+else if (x=="scissors") {alert("tie!")}
+else {alert("you win!, scissors beats paper")}
+}
+
+
+
+
+
+console.log("Computer's play is: ", x)
+
+</script>
+</body>
+
+</html>
