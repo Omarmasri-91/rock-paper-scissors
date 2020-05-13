@@ -1,0 +1,44 @@
+
+h1 {
+    text-align: center;
+    
+}
+
+#scorebox {
+    background:rgba(206, 243, 241, 0.603);
+    width: 400px;
+    height: relative;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+#scorelog, #cuplay {
+    width: 400px;
+    height: 30px;
+    background: rgb(135, 175, 177);
+    border-radius: 20px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+#btnsbox{
+    display: flex;
+    justify-content: center;
+    height: relative;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+.btn {
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(126, 139, 134);    
+}
+
